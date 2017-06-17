@@ -17,12 +17,12 @@ import Foundation
  */
 
 func radiansToDegrees(radians: Double) -> Double {
-    return radians * 180 / M_PI
+    return radians * 180 / Double.pi
 }
 
-let halfPiRadiansInDegrees = radiansToDegrees(radians: M_PI / 2)
-let piRadiansInDegrees = radiansToDegrees(radians: M_PI)
-let twoPiRadiansInDegrees = radiansToDegrees(radians: 2 * M_PI)
+let halfPiRadiansInDegrees = radiansToDegrees(radians: Double.pi / 2)
+let piRadiansInDegrees = radiansToDegrees(radians: Double.pi)
+let twoPiRadiansInDegrees = radiansToDegrees(radians: 2 * Double.pi)
 
 /*:
 

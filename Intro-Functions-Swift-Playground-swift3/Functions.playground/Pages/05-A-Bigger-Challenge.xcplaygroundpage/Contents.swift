@@ -12,10 +12,21 @@
  Feel free to reference the previous page if you need some help!
 
  */
+func moveHundred() {
+    moveFifty()
+    moveFifty()
+}
+func drawBigSquare() {
+    moveHundred()
+    rotateNinety()
+    moveHundred()
+    rotateNinety()
+    moveHundred()
+    rotateNinety()
+    moveHundred()
+}
 
-
-
-
+drawBigSquare()
 
 
 

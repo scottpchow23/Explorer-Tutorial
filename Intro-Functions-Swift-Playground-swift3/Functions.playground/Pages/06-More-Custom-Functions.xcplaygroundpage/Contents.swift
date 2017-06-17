@@ -47,10 +47,40 @@
  
  
 */
-
-
-
-
+func drawTriangle(sideLength: Int) {
+    move(steps: sideLength)
+    rotate(degrees: 360 / 3)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 3)
+    move(steps: sideLength)
+}
+//drawTriangle(sideLength: 50)
+func drawPentagon(sideLength: Int) {
+    move(steps: sideLength)
+    rotate(degrees: 360 / 5)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 5)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 5)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 5)
+    move(steps: sideLength)
+}
+//drawPentagon(sideLength: 50)
+func drawHexagon(sideLength: Int) {
+    move(steps: sideLength)
+    rotate(degrees: 360 / 6)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 6)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 6)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 6)
+    move(steps: sideLength)
+    rotate(degrees: 360 / 6)
+    move(steps: sideLength)
+}
+drawHexagon(sideLength: 50)
 
 
 

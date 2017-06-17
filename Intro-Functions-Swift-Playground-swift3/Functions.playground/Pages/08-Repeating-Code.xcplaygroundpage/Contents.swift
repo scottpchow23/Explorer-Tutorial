@@ -44,8 +44,13 @@
  - callout(Challenge): Now that you know how to implement "for-loops" (repeat a few lines of code), reimplement your `drawTriangle`, `drawSquare`, `drawPentagon`, and `drawHexagon` methods below. Make sure they are still resizeable and be sure to test them out!
 
  */
-
-
+func drawTriangle(sideLength: Int) {
+    for _ in 1...3 {
+        move(steps: 50)
+        rotate(degrees: 360 / 3)
+    }
+}
+drawTriangle(sideLength: 50)
 
 
 

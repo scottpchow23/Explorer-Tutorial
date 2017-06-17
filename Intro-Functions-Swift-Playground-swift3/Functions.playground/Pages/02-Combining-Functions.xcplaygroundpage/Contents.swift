@@ -8,8 +8,8 @@
     rotateNinety()
 
  */
-
-
+moveFifty()
+rotateNinety()
 
 /*:
 

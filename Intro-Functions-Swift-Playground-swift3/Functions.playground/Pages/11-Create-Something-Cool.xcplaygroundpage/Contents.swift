@@ -41,11 +41,17 @@
  - callout(Challenge): Draw something awesome in the space below!
  
  */
+func drawStar(sideLength: Int) {
+    rotate(degrees: 360 - 18)
+    for _ in 1...5 {
+        move(steps: sideLength)
+        rotate(degrees: 144)
+    }
+}
 
 
 
-
-
+drawStar(sideLength: 50)
 
 
 

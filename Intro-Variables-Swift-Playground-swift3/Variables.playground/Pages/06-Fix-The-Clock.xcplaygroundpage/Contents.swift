@@ -79,7 +79,7 @@ secondRotation = 0
 
 */
 
-
+hourRotation = hours / 12 * 360
 
 /*:
 
@@ -94,8 +94,8 @@ secondRotation = 0
  - callout(Challenge): Time to get that clock working!
 
 */
-
-
+secondRotation = seconds / 60 * 360
+minuteRotation = minutes / 60 * 360
 
 /*:
 

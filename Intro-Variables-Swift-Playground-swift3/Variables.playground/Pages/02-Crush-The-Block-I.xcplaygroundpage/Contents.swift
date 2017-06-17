@@ -23,7 +23,7 @@ var distanceFromLeft: Int = 50
 
 */
 
-
+distanceFromLeft = 160
 
 /*:
 
@@ -55,7 +55,7 @@ var distanceFromLeft: Int = 50
  - callout(Try it out): Enter the following code below `distanceFromLeft = 260`
 
 */
-
+distanceFromLeft = 260
 
 
 /*:

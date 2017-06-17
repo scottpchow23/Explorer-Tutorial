@@ -20,7 +20,7 @@ var signText: String = "This is not a sign."
 
 */
 
-
+signText = "Danger"
 
 /*:
 

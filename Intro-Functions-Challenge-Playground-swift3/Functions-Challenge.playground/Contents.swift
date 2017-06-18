@@ -28,16 +28,35 @@
  - note: Store Morty's current grade in the `let` constant `mortyGradeWithoutFinal`.
 
 */
+let homework = [100, 100, 100, 85, 65, 100, 100, 100, 0, 105, 105]
+let quizes = [93, 87, 100, 100, 72]
+let tests = [98, 92, 75, 80]
 
-
-
-
-
-
-
-
-
-
+//func calculateAvg(grades: [Int]) -> Double{
+//    var total = 0
+//    var count = 0
+//    for grade in grades {
+//        total += grade
+//        count += 1
+//    }
+//    let avg = Double(total)/Double(count)
+//    return avg
+//}
+//
+//let avg = calculateAvg(grades: homework)
+//
+//func calculateMortysGrade() -> Double{
+//    
+//    let homeworkAvg = calculateAvg(grades: homework)
+//    let quizAvg = calculateAvg(grades: quizes)
+//    let testAvg = calculateAvg(grades: tests)
+//    let midterm = 85.0
+//    
+//    return (homeworkAvg * 0.2) + (quizAvg * 0.25) + (testAvg * 0.3) + (midterm * 0.1)
+//    
+//}
+//
+//let grade = calculateMortysGrade()
 
 
 /*:
